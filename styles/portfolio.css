@@ -105,7 +105,7 @@ nav a {
 }
 
 /* main */
-.main{
+main{
     max-width:1140px;
     margin: 0 auto;
 }
@@ -116,4 +116,12 @@ nav a {
     background: #FFF8F3;
     margin: 130px 0;
 }
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.about-info{
+    text-align: center;
+}
