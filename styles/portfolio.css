@@ -1,131 +1,163 @@
 /* common shared styles */
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .text-primary {
-    color: #FD6E0A;
+  color: #fd6e0a;
 }
 
 .btn-primary {
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    font-size: 20px;
-    color: white;
-    font-weight: 700;
-    padding: 15px 35px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  padding: 15px 35px;
 }
 
 .section-title {
-    color: #181818;
-    text-align: center;
+  color: #181818;
+  text-align: center;
 
-    font-size: 35px;
+  font-size: 35px;
 
-    font-weight: 700;
-
+  font-weight: 700;
 }
 
 .section-desctiption {
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /* nav */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title {
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
 
-nav>ul {
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
 
 nav li {
-    list-style: none;
-    margin-right: 50px;
+  list-style: none;
+  margin-right: 50px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #474747
+  text-decoration: none;
+  color: #474747;
 }
 
 /* header */
 .header {
-    background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .banner .profile-pic {
-    width: 500px;
-    margin-bottom: -5px;
+  width: 500px;
+  margin-bottom: -5px;
 }
 
 .banner-greeting {
-    font-size: 45px;
-    color: #474747;
-    margin-bottom: 0px;
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0px;
 }
 
 .banner-title {
-    font-size: 85px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 20px;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .banner-content {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 /* main */
-main{
-    max-width:1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section {
+  margin-top: 130px;
 }
 /* about */
 .about {
-    padding: 130px;
-    border-radius: 10px;
-    background: #FFF8F3;
-    margin: 130px 0;
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
 }
-.about-info-container{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.about-info{
-    text-align: center;
+.about-info {
+  text-align: center;
 }
 
 /* what i do */
-#whatido-desc{
-    padding:50px 150px;
-    text-align: center;
+#whatido-desc {
+  padding: 50px 150px;
+  text-align: center;
+}
+
+#skill-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+
+/* resume section */
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-column{
+  color:  #474747;
+
+}
+.resume-column-title {
+  color:  #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-item{
+  padding-right: 50px;
+  border-bottom: 1px solid #D1D1D1;
 }
